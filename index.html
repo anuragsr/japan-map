@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Japan Map</title>
+	<script src="js/hammer.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+  	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<div class="map-container">
+		<div class="map-outer">
+			<h1>Map of Japan with Pan<br/>+/- buttons for zoom in/out</h1>
+			<div class="map-inner">
+				<div id="map-contain">
+					<img src="img/japmap.jpg" id="myImage"/>
+				</div>
+				<div class="zoom-btn">
+					<button class="zoom zi" onclick="zoomIn()">+</button><br/>
+					<button class="zoom zo" onclick="zoomOut()">-</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/pan.js"></script>
+</body>
+</html>
